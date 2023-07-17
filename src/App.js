@@ -1,11 +1,13 @@
 import React from 'react'
 import Sidebar from './components/Sidebar';
 import Task from './components/Task';
+import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
 
 function App() {
   return (
     <div className="App">
-      <div className="flex  w-[1440px] bg-white h-[932px] m-10 rounded-[16px] shadow-[#D8D8D8] shadow-2xl font-semibold">
+    <DragDropContext>
+      <div className="flex  w-[1440px] bg-white  m-10 rounded-[16px] shadow-[#D8D8D8] shadow-2xl font-semibold">
          <div className=''>
             <Sidebar />
          </div>
@@ -13,6 +15,7 @@ function App() {
             <Task />
          </div>
       </div>
+      </DragDropContext>
     </div>
   );
 }

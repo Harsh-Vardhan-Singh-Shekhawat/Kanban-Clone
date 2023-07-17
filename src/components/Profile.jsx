@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 import Calendar from "../assets/calendar-2.png";
 import Notification from "../assets/notification.png";
 import Message from "../assets/message-question.png";
-import ProfileImg from "../assets/Mask Group.png";
+import ProfileImg from "../assets/Profilegirl.png";
 import ProfileIcon from "../assets/arrow-down.png";
 
 const Profile = () => {
