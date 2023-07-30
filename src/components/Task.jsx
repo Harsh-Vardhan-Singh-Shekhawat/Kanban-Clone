@@ -1,23 +1,20 @@
-import React from 'react'
-import Profile from './Profile'
-import MobileApp from './MobileApp'
-import Filter from './Filter'
-import ToDo from './ToDo';
-import OnProgress from './OnProgress';
-import Completed from './Completed';
+import React from "react";
+import Header from "./Header";
+import MobileApp from "./MobileApp";
+import Filter from "./Filter";
+import KanbanBoard from "./KanbanBoard";
+
 const Task = () => {
   return (
-    <div className=' h-[88px] mx-10 border-b-[1px]'>   
-        <Profile /> 
+    <>
+      <Header />
+      <div className="mx-10 ">
         <MobileApp />
         <Filter />
-        <div className='flex justify-between'>
-          <ToDo />
-          <OnProgress />
-          <Completed />
-        </div>
-    </div>
-  )
-}
+        <KanbanBoard />
+      </div>
+    </>
+  );
+};
 
-export default Task
+export default Task;

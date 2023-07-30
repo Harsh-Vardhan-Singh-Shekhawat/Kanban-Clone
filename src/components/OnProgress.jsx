@@ -11,7 +11,7 @@ import sofaImg from '../assets/unsplash_BS_1XGRkIH4.png'
 
 const OnProgress = () => {
   return (
-    <div className="w-[354px] my-[40px] bg-[#F5F5F5] p-[20px]">
+    <div className="w-[354px] my-[40px] bg-[#F5F5F5] rounded-[16px] p-[20px]">
       <div className="flex  justify-between items-center">
         <div className="w-full flex items-center">
           <p className="w-[8px] h-[8px] rounded-full bg-[#FFA500]"></p>

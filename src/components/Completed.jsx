@@ -10,7 +10,7 @@ import uiImg from '../assets/Mask Group.png'
 
 const Completed = () => {
   return (
-    <div className="w-[354px] my-[40px] bg-[#F5F5F5] p-[20px]">
+    <div className="w-[354px] my-[40px] rounded-[16px] bg-[#F5F5F5] p-[20px]">
       <div className="flex  justify-between items-center">
         <div className="w-full flex items-center">
           <p className="w-[8px] h-[8px] rounded-full bg-[#76A5EA]"></p>

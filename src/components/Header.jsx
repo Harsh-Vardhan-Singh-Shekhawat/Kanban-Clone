@@ -6,13 +6,13 @@ import Message from "../assets/message-question.png";
 import ProfileImg from "../assets/Profilegirl.png";
 import ProfileIcon from "../assets/arrow-down.png";
 
-const Profile = () => {
+const Header = () => {
   return (
-    <div className="flex h-full justify-between items-center">
+    <div className="flex md:h-[88px] px-10 border-b-[1px] justify-between items-center">
       <div className="">
         <SearchBar />
       </div>
-      <div className="flex  ">
+      <div className="flex">
         <div className="flex w-[120px] relative items-center right-[70px]">
           <img
             className="w-[24px] h-[24px] mx-[12px] cursor-pointer"
@@ -27,10 +27,10 @@ const Profile = () => {
           <img
             className="w-[24px] h-[24px] mx-[12px] cursor-pointer"
             src={Notification}
-            alt="noti"
+            alt="notification"
           ></img>
         </div>
-        <div className="w-[201px] h-[39px] relative right-4 flex space-evenly cursor-pointer items-center">
+        <div className="w-[201px] h-[39px] flex space-evenly cursor-pointer items-center">
           <div className="text-right mr-3">
             <p className="text-[#0D062D] h-[19px] text-base font-thin leading-3">Anima Agarwal</p>
             <p className="text-[#787486] h-[17px] text-sm font-thin">U.P, India</p>
@@ -45,4 +45,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Header;

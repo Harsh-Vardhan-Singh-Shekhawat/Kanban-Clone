@@ -16,10 +16,10 @@ const MobileApp = () => {
             <img className='ml-[10px]' src={LinkIcon} alt='link-icon'></img>
 
         </div>
-        <div className='w-[250px] flex items-center justify-between'>
-            <img className='w-[30px] mr-2' src={AddIcon} alt='add-icon' />
-            <span className='font-light mr-2 text-[#5030e5]'>Invite</span>
-            <div className='flex  w-[238px] h-[38px]'>
+        <div className='w-[250px] flex  items-center gap-[8px]'>
+            <img className='w-[30px] ' src={AddIcon} alt='add-icon' />
+            <span className='font-light text-[#5030e5]'>Invite</span>
+            <div className='flex w-[238px] h-[38px]'>
                 <img className='z-10 mr-[-10px] w-[38px] h-[38px] rounded-full border-white border-[1px]' src={img4} alt='p-img' />
                 <img className='z-20 mr-[-10px] w-[38px] h-[38px] rounded-full border-white border-[1px]' src={img3} alt='p-img' />
                 <img className='z-30 mr-[-10px] w-[38px] h-[38px] rounded-full border-white border-[1px]' src={img2} alt='p-img' />
