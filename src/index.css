@@ -20,7 +20,8 @@ code {
 }
 
 .App {
-  padding: 0.5px;
+  /* padding: 0.5px; */
+  width:100%;
   /* border: none; */
   background-color: #ededee;
   /* font-family:; */

@@ -89,7 +89,7 @@ function KanbanBoard() {
 
   console.log(toDoItems.length);
   return (
-    <div className="flex justify-between gap-[16px] my-10 w-full">
+    <div className="flex flex-col md:flex-row lg:flex-row justify-between gap-[16px] my-10 w-full">
       <DragDropContext
         className=" bg-[#F5F5F5]"
         onDragEnd={(result) => onDragEnd(result, columns, setColumns)}

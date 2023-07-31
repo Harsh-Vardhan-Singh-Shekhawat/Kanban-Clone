@@ -4,11 +4,11 @@ import MobileApp from "./MobileApp";
 import Filter from "./Filter";
 import KanbanBoard from "./KanbanBoard";
 
-const Task = () => {
+const Task = ({isOpen,setIsOpen}) => {
   return (
     <>
-      <Header />
-      <div className="mx-10 ">
+      <Header isOpen={isOpen} setIsOpen={setIsOpen} />
+      <div className="md:mx-10 mx-4">
         <MobileApp />
         <Filter />
         <KanbanBoard />

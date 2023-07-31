@@ -9,7 +9,7 @@ import filesIcon from "../../assets/Group 628.png";
 const Card2 = () => {
   return (
     
-      <div className="w-full h-[177px]  rounded-[16px] bg-white">
+      <div className="w-full rounded-[16px] bg-white">
         <div className="flex justify-between">
           <p className="w-[36px] h-[23px] rounded-[4px] text-xs flex items-center justify-center bg-[#f7ece2] font-medium text-[#d8727d]">
             High
